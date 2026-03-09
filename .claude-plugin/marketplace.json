@@ -1,10 +1,35 @@
 {
-  "version": "1.0.0",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hexa",
+  "owner": {
+    "name": "Harsh Sachan",
+    "email": "harsh.sachan@example.com"
+  },
+  "metadata": {
+    "description": "HEXA (Historical Expertise Agent) - AI-powered code review using historical PR comments",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "hexa",
-      "path": "plugins/hexa",
-      "description": "HEXA (Historical Expertise Agent) - AI-powered code review using historical PR comments and patterns"
+      "description": "AI-powered code review using historical PR comments and patterns",
+      "version": "1.0.0",
+      "author": {
+        "name": "Harsh Sachan",
+        "url": "https://github.com/HarshSachan0007"
+      },
+      "source": "./plugins/hexa",
+      "category": "development",
+      "homepage": "https://github.com/HarshSachan0007/hexa-claude-plugin",
+      "repository": "https://github.com/HarshSachan0007/hexa-claude-plugin",
+      "keywords": [
+        "hexa",
+        "code-review",
+        "pr-review",
+        "azure-devops",
+        "historical-comments",
+        "review-persona"
+      ]
     }
   ]
 }
