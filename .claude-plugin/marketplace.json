@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "hexa",
+      "path": "plugins/hexa",
+      "description": "HEXA (Historical Expertise Agent) - AI-powered code review using historical PR comments and patterns"
+    }
+  ]
+}
