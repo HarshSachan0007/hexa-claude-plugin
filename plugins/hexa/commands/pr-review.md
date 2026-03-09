@@ -47,13 +47,13 @@ powershell.exe -Command "az repos pr show --id {PR_ID} --org 'https://dev.azure.
 ```
 Extract: `title`, `sourceRefName`, `targetRefName`, `createdBy.displayName`, `repository.name`, `repository.id`, `repository.project.name`
 
-### 2. Get HEXA Token
+### 2. Get Skynet Token
 
 ```bash
 powershell.exe -NoProfile -Command 'az account get-access-token --resource "api://9a6fc9ff-370c-4fee-868e-7d6b09034369" --query accessToken -o tsv'
 ```
 
-Store as HEXA_TOKEN. Reuse for all HEXA API calls.
+Store as SKYNET_TOKEN. Reuse for all Skynet API calls.
 
 ### 3. Get File Diffs
 
